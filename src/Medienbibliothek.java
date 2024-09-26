@@ -10,13 +10,13 @@ public class Medienbibliothek {
 		this.medienliste = new ArrayList<>();
 	}
 	
-	public void mediumHinzufügen(Medium m)
+	public void mediumHinzufÃ¼gen(Medium m)
 	{
 		this.medienliste.add(m);
 	}
 	
 	/*
-	 * Ausgabe aller Medien in der Bibliothek über Methodenpolymorphie
+	 * Ausgabe aller Medien in der Bibliothek ï¿½ber Methodenpolymorphie
 	 */
 	public void alleMedienAusgeben()
 	{
@@ -28,8 +28,8 @@ public class Medienbibliothek {
 	}
 	
 	/*
-	 * Methode, die die generische Liste durchläuft und nur VHS aussucht,
-	 * und diesen dann als eigene Liste zurückgibt.
+	 * Methode, die die generische Liste durchlï¿½uft und nur VHS aussucht,
+	 * und diesen dann als eigene Liste zurï¿½ckgibt.
 	 * Zweck: Illustration der Funktionsweise des instanceof Operators.
 	 */
 	public ArrayList<VHS> alleVHSalsListe()

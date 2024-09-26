@@ -1,24 +1,24 @@
 
 public class Cartridge extends Medium {
 	
-	private boolean vollständigesSet;
+	private boolean vollstÃ¤ndigesSet;
 	private String entwicklerstudio;
 	private Konsolentyp konsole;
 	
-	public Cartridge(String titel, double wert, String standort, boolean vollständigesSet, String entwicklerstudio,
+	public Cartridge(String titel, double wert, String standort, boolean vollstÃ¤ndigesSet, String entwicklerstudio,
 			Konsolentyp konsole) {
 		super(titel, wert, standort);
-		this.vollständigesSet = vollständigesSet;
+		this.vollstÃ¤ndigesSet = vollstÃ¤ndigesSet;
 		this.entwicklerstudio = entwicklerstudio;
 		this.konsole = konsole;
 	}
 
-	public boolean isVollständigesSet() {
-		return vollständigesSet;
+	public boolean isVollstÃ¤ndigesSet() {
+		return vollstÃ¤ndigesSet;
 	}
 
-	public void setVollständigesSet(boolean vollständigesSet) {
-		this.vollständigesSet = vollständigesSet;
+	public void setVollstÃ¤ndigesSet(boolean vollstÃ¤ndigesSet) {
+		this.vollstÃ¤ndigesSet = vollstÃ¤ndigesSet;
 	}
 
 	public String getEntwicklerstudio() {
@@ -37,10 +37,10 @@ public class Cartridge extends Medium {
 		this.konsole = konsole;
 	}
 	
-	public void anzeigen() //Überschreiben der Mutterklassenmethode
+	public void anzeigen() //ï¿½berschreiben der Mutterklassenmethode
 	{
 		super.anzeigen();
-		System.out.println("[Cartridge] Ist das Set vollständig? -> " + this.isVollständigesSet() + " Entwicklerstudio -> " + this.getEntwicklerstudio() + " Konsolentyp -> " + this.getKonsole());
+		System.out.println("[Cartridge] Ist das Set vollstï¿½ndig? -> " + this.isVollstÃ¤ndigesSet() + " Entwicklerstudio -> " + this.getEntwicklerstudio() + " Konsolentyp -> " + this.getKonsole());
 	}
 	
 }
